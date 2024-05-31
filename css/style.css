@@ -1,0 +1,193 @@
+@font-face{
+    src:url(../font/playfairdisplay-regular.ttf);
+    font-family:playfairdisplay-regular;
+}
+@font-face{
+    src:url(../font/ubuntu-light.ttf);
+    font-family:ununtu-light;
+}
+@font-face{
+    src:url(../font/inconsolata-regular.ttf);
+    font-family:inconsolata-regular;
+}
+body{
+    font-family: playfairdisplay-regular;
+    margin:0;
+    padding:0;
+    color:#626262;
+}
+/* header start  */
+header{
+    padding:30px 0;
+}
+.container{
+    width:90%;
+    /* border:1px solid; */
+    margin:0 auto;
+    overflow:hidden;
+}
+.logo{
+    width:12%;
+    /* border:1px solid; */
+    float:left;
+    margin-top:10px;
+}
+.logo a{
+    font-family: inconsolata-regular;
+    font-size: 30px;
+    font-weight: 400;
+    color:#000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.menu{
+    width:50%;
+    /* border:1px solid; */
+    float:right;
+}
+.menu ul{
+    list-style: none;
+    float:right;
+}
+.menu ul li{
+    float:left;
+    margin-right:60px;
+}
+.menu ul li:last-child{
+    margin-right:0;
+}
+
+.menu ul li a{
+    display: inline-block;
+    color:#626262;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* header end */
+/* section banner start  */
+.w100{
+    width:100%;
+}
+/* section banner end */
+/* section getaway start  */
+.getaway{
+    padding:100px 0;
+}
+.container2{
+    width:80%;
+    /* border:1px solid; */
+    margin:0 auto;
+}
+.light{
+    font-family: "ununtu-light",serif;
+    font-weight: 300;
+    font-size:14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.title{
+    margin:20px 0 30px;
+    font-size:30px;
+    font-weight: 400;
+}
+.text{
+    line-height:24px;
+    margin:0;
+}
+.g_link{
+    margin-top:50px;
+    text-decoration: none;
+    color:#626262;
+    display: block;
+}
+/* section getaway end */
+/* section blog start  */
+.blog_c{
+    overflow: hidden;
+}
+.blog_single{
+    float:left;
+    /* border:1px solid green; */
+    width:47%;
+    margin-bottom:100px;
+    box-sizing: border-box;
+}
+.blog_single:nth-child(even){
+    margin-left:6%;
+}
+.blog_img{
+    /* border:1px solid red; */
+    padding-bottom:20px;
+}
+/* section blog end */
+/* news start  */
+.news{
+    background-color: #F0F0F0;
+    margin:0 0 100px;
+    padding:75px 0;
+}
+.signup{
+    /* width:24%; */
+    text-align: center;
+    margin:0 auto;
+    padding: 0 0 5px;
+    
+    overflow: hidden;
+}
+.s_h2{
+    color:#333333;
+    margin:0 0 85px;
+}
+.s_form{
+    position:relative;
+    width:400px;
+    margin:0 auto;
+    /* border:5px solid green; */
+}
+.s_form input{
+    font-family: playfairdisplay-regular;
+    font-size:14px;
+    color:#626262;
+    width:380px;
+    height:45px;
+    border:none;
+    border-bottom: 1px solid #000000;
+    outline:none;
+    padding-left:5px;
+    padding-right:15px;
+    background-color: transparent;
+
+}
+.s_form button{
+    position:absolute;
+    background: transparent;
+    border:none;
+    right:0;
+    top:15px;
+    padding:0;
+    cursor:pointer;
+}
+/* news end */
+/* button start  */
+.s_button{
+    width:9%;
+    margin:0 auto;
+    padding:50px 0 100px;
+    /* border:1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.s_button .l_button{
+    padding:15px 27px;
+    /* border:1px solid; */
+    cursor:pointer;
+    /* width:100%; */
+}
+.l_button{
+    font-family:playfairdisplay-regular;
+    font-size: 20px;
+}
+/* button end */
